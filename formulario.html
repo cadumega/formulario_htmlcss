@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
   <title>Document</title>
 </head>
 <body>
@@ -56,8 +57,9 @@
     </div>
 
     <fieldset class="grupo">
-      <div class="campo">
+      <div id="check">
         <label><strong>Selecione as Tecnologias que utiliza</strong>:</label>
+        <br>
         <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
         <label for="tecnologia1">HTML</label>
         <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
@@ -71,11 +73,11 @@
         <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
         <label for="tecnologia6">Python</label>  
       </div>
-    </fieldset>
+    </fieldset> 
 
     <div class="campo">
       <br>
-      <label><strong>Conte um pouco da sua experiência</strong></label>
+      <label><strong>Conte um pouco da sua experiência:</strong></label>
       <textarea row="6" style="width: 26em" id="experiencia" name="experiencia>"></textarea>
     </div>
 
