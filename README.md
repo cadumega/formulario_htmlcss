@@ -1,7 +1,6 @@
 Readme
 
-
- #colocar os tipos certos,pq já faz a verificação do campo,pedindo @
+colocar os tipos certos,pq já faz a verificação do campo,pedindo @
 por isso o uso de type no html
 
 <br> para pular linha
