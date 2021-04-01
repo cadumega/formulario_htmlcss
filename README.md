@@ -1,7 +1,8 @@
 https://cadumega.github.io/formulario_htmlcss/
+Alguns incrementos no exercicio de formulário, como a tipografia, espaçamento, glassmorphism, elemento after..
+![image](https://user-images.githubusercontent.com/72901445/113359389-0c52ff80-931e-11eb-8178-6a2114ccfd8e.png)
 
 
-Alguns incrementos de tipografia, espaçamento, glassmorphism.
 
 
 # Resume:
