@@ -1,40 +1,38 @@
 https://cadumega.github.io/formulario_htmlcss/
 
-Readme
 
-colocar os tipos certos,pq já faz a verificação do campo,pedindo @
+
+# Resume:
+
+1. colocar os tipos certos,pq já faz a verificação do campo,pedindo @
 por isso o uso de type no html
 
-<br> para pular linha
+2. <br> para pular linha
 
-fieldset delimitar area 
+3. fieldset delimitar area 
 
-checked para deixar marcado essa opção ao carregar a página
+4. checked para deixar marcado essa opção ao carregar a página
 
-for mostra para aoende esta indicando
+5. for mostra para aoende esta indicando
 
-required a pessoa não vai conseguir enviar,sem que esse campo esteja preenchido.
+6. required a pessoa não vai conseguir enviar,sem que esse campo esteja preenchido.
 
-<textarea rows="6" style="width: 26em" id="experiencia" name="experiencia>"></textarea>
-
+7. <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia>"></textarea>
 essa tag já estilizei dentro dela, coloquei o número de linhas que ela terá, e dentro de syle coloquei o que faria dentro do css.
 
-type="submit"
-
+8. type="submit"
 
 tipo de botão que envia o formulário
 
-O id vai servir para colocar o css, coloquei em algumas tags, mas falta colocar em outras. Como na h1
+9. O id vai servir para colocar o css, coloquei em algumas tags, mas falta colocar em outras. Como na h1
 
-<strong> para deixar com enfase em negrito ,todos os labels títulos da página
+10. <strong> para deixar com enfase em negrito ,todos os labels títulos da página
 
-fazer a ligação do arquivo html com o arquivo css
 
-* asteristico seleciona todos os elementos da página de html
+11. No css , * asteristico seleciona todos os elementos da página de html
  selecionar a classe com ponto . , # para id
 
-
-estrutura básica do html: 
+12. estrutura básica do html: 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
