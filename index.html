@@ -8,33 +8,34 @@
   <title>Document</title>
 </head>
 <body>
+<section>
   <div>
     <h1 id="titulo">Cadastros de DEVs</h1>
-    <p id="subtitulo">Complete as suas informações:</p>
+    <p id="subtitulo"><strong>Complete as suas informações:</strong></p>
     <br>
   </div>
 
   <form>
     <fieldset class="grupo">
       <div class="campo">
-        <label for="nome"><strong>Nome</strong></label>
+        <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" required>
       </div>
 
       <div class="campo">
-        <label for="sobrenome"><strong>Sobrenome</strong></label>
+        <label for="sobrenome">Sobrenome:</label>
         <input type="text" name="sobrenome" id="sobrenome" required>
       </div>
 
       <div class="campo"> 
-        <label for="email"><strong>Email</strong></label>
+        <label for="email">Email:</label>
         <input type="email" name="email" id="email" required>
       </div>
   
     </fieldset>
 
     <div class="campo">
-      <label>De qual lado da aplicação você desenvolve?</label>
+      <label class="títulolabel"><strong>De qual lado da aplicação você desenvolve?</strong></label>
       <label>
         <input type="radio" name="devweb" value="front-end" checked>Front-end
       </label>
@@ -47,7 +48,7 @@
     </div>
 
     <div class="campo">
-      <label for="senioridade">Senioridade</label>
+      <label for="senioridade"><strong>Senioridade:</strong></label>
       <select id="senioridade">
         <option selected disabled value=""><strong>Selecione</strong></option>
         <option>Junior</option>
@@ -60,29 +61,31 @@
       <div id="check">
         <label><strong>Selecione as Tecnologias que utiliza</strong>:</label>
         <br>
-        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
-        <label for="tecnologia1">HTML</label>
-        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
-        <label for="tecnologia2">CSS</label>
-        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
-        <label for="tecnologia3">JavaScript</label>
-        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="React">
-        <label for="tecnologia4">React</label>
-        <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Vue">
-        <label for="tecnologia5">Vue</label>
-        <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
-        <label for="tecnologia6">Python</label>  
+        <div class="tit3">
+          <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+          <label for="tecnologia1">HTML</label>
+          <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+          <label for="tecnologia2">CSS</label>
+          <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+          <label for="tecnologia3">JavaScript</label>
+          <input type="checkbox" id="tecnologia4" name="tecnologia4" value="React">
+          <label for="tecnologia4">React</label>
+          <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Vue">
+          <label for="tecnologia5">Vue</label>
+          <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+          <label for="tecnologia6">Python</label>  
+        </div> 
       </div>
     </fieldset> 
 
     <div class="campo">
       <br>
-      <label><strong>Conte um pouco da sua experiência:</strong></label>
+      <label class="tit3"><strong>Conte um pouco da sua experiência:</strong></label>
       <textarea row="6" style="width: 26em" id="experiencia" name="experiencia>"></textarea>
     </div>
 
     <button class="botao" type="submit">Concluído</button>
   </form>
-  
+</section>
 </body>
 </html>
