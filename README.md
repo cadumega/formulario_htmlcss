@@ -11,7 +11,7 @@ Alguns incrementos no exercicio de formulário, como a tipografia, espaçamento,
 1. colocar os tipos certos,pq já faz a verificação do campo,pedindo @
 por isso o uso de type no html
 
-2. <br> para pular linha
+2.  br com <> br para pular linha
 
 3. fieldset delimitar area 
 
